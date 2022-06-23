@@ -18,7 +18,7 @@ Route::get('/new', function () {
 });
 
 
-Route::get('/','TestController@controllerMethod');
+//Route::get('/new','TestController@controllerMethod');
 
 Route::any('{slug}', function () { 
     //to view the view welcome, whatever we type in URL
