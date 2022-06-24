@@ -11,7 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
- mix.js('resources/js/app.js', 'public/js').vue()
- .postCss('resources/css/app.css', 'public/css', [
-     //
- ]);
+ mix.js('resources/js/app.js', 'public/js').vue()     
+ //'please js, go to folder resources, take the js and put it inside the public folder and js file there'
+//  .postCss('resources/css/app.css', 'public/css', [
+     
+//  ]);
